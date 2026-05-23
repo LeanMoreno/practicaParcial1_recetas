@@ -11,6 +11,7 @@ public class Tradicional implements ICriterio{
         return instance;
     }
 
+    //Asi con solo esto seria como el ComeTutti.
     @Override
     public Boolean leGusta(IReceta receta) {
         return Boolean.valueOf(receta.esTradicional());
